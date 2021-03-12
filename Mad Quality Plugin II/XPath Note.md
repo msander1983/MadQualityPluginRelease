@@ -1,0 +1,1 @@
+> The plugin supports advanced XPath statements, but no documentation is provided for this. If you need assistance, please contact me at mattias@improvementsoft.com.
