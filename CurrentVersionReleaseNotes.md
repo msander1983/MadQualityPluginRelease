@@ -1,4 +1,9 @@
-﻿# 1.0.3
+﻿# 1.0.4
+- The results window no longer stays on top.
+- The processing modal window no longer stays on top while processing. 
+
+
+# 1.0.3
 - Regular expressions now operate on strings without taking inline tags into consideration. 
 - Added Microsoft Manual of Style rules to the template. 
 - Added progress bar and cancel button.
