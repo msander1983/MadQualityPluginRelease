@@ -1,4 +1,12 @@
-﻿# 1.0.5
+﻿# 1.0.6
+- Corrected the en/em-dash rule. The previous REGEX expression took too long to process. 
+- Added a box with the message in the results window. If the description or message has a link, you can click it to open in your browser. 
+- Files are now processed in parallel to make the processing faster. 
+- Added a progress bar for each individual file so that you can see the progress. 
+- Disabled some of the more processor intensive rules in the default template. Added tabs for structural rules and MS manual of style. 
+- CANCEL => Cancel
+
+# 1.0.5
 - The "IgnoreCase" setting was ignored, but isn't anymore.
 - Added feature to use rules at other location, e.g. "G:\my Rule.xlsx" or "https://www.github.com/.../rules.xlsx".
 - Added button to open the folders with the rules, for easy import/export. 
