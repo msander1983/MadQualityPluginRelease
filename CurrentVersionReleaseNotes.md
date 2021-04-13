@@ -1,4 +1,12 @@
-﻿# 1.0.6
+﻿# 1.0.7
+- Corrected a bug that prevented the "FileNameRegex" function from working. 
+- Added more default rules based on the "Write Good" rules. 
+- Activated all rules again.
+- Added a tab for each category of rules so that you can copy & paste them into the first tab to activate them.
+- Extended trial.
+- Various rule changes. 
+
+# 1.0.6
 - Corrected the en/em-dash rule. The previous REGEX expression took too long to process. 
 - Added a box with the message in the results window. If the description or message has a link, you can click it to open in your browser. 
 - Files are now processed in parallel to make the processing faster. 
