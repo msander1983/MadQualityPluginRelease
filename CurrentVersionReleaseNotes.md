@@ -1,4 +1,8 @@
-﻿# 1.0.7
+﻿# 1.0.8
+- If a REGEX based rule times out at over 9 seconds - it will disabled while running the remaining quality check. 
+- There's now an automatic 14 day free trial when you install the plugin.
+
+# 1.0.7
 - Corrected a bug that prevented the "FileNameRegex" function from working. 
 - Added more default rules based on the "Write Good" rules. 
 - Activated all rules again.
