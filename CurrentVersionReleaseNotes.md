@@ -1,4 +1,7 @@
-﻿# 1.0.8
+﻿# 1.0.9
+- Performance enhancements. 
+
+# 1.0.8
 - If a REGEX based rule times out at over 9 seconds - it will disabled while running the remaining quality check. 
 - There's now an automatic 14 day free trial when you install the plugin.
 
