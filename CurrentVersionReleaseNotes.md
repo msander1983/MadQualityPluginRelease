@@ -1,5 +1,8 @@
 ﻿# Release Notes
 
+## 1.0.11
+- Performance improvements. The plugin is now significantly faster.
+
 ## 1.0.10
 - Added a hard-coded context called "Text", which is p, td:not(:has(p)), li:not(:has(p)).
 - It's no longer possible to add a rule from an http-location using the GUI. You can however, add the link to a .rule file that you manually add to the folder with the xlsx files. 
