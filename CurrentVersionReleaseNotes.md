@@ -1,5 +1,10 @@
 ﻿# Release Notes
 
+## 1.0.12
+- Updated GUI texts. 
+- Fallback validation to prevent "FILE ERROR" and XPATH errors. 
+- Fixed a bug where the first row of the rules spreadsheet wasn't converted.
+
 ## 1.0.11
 - Performance improvements. The plugin is now significantly faster.
 
