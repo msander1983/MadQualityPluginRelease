@@ -1,5 +1,10 @@
 ﻿# Release Notes
 
+## 1.0.13
+- The rule template is now added as the default rule set.
+- The FileNameRegex did previously not work when combining rule type Assert with a context and a regex pattern. Now it does. 
+
+
 ## 1.0.12
 - Updated GUI texts. 
 - Fallback validation to prevent "FILE ERROR" and XPATH errors. 
