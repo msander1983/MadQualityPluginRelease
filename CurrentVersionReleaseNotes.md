@@ -1,9 +1,14 @@
 ﻿# Release Notes
 
+## 1.0.14
+- Disabled the write good rules by default.
+- Corrected the bug that prevented the "Word" & "ListOfWord" functions to process topics accurately. 
+- Corrected the "index is out of bounds" bug. 
+- Changed the MS-20210413120543 rule from "Regex" to "ListOfWords" to make it work :)
+
 ## 1.0.13
 - The rule template is now added as the default rule set.
 - The FileNameRegex did previously not work when combining rule type Assert with a context and a regex pattern. Now it does. 
-
 
 ## 1.0.12
 - Updated GUI texts. 
