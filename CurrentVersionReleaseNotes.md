@@ -1,5 +1,11 @@
 ﻿# Release Notes
 
+## 1.0.15
+- Bug fixes in the default rules. 
+- Validation of all the default rules. 
+- Added "RawRegex" function to match the entire element text, e.g. `<p>My element</br><p>` instead of `My element`.
+- Corrected bug for Assert type rules.
+
 ## 1.0.14
 - Disabled the write good rules by default.
 - Corrected the bug that prevented the "Word" & "ListOfWord" functions to process topics accurately. 
