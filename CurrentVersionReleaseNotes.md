@@ -1,6 +1,6 @@
 ﻿# Release Notes
 
-## 1.0.21 (2021-07-19)
+## 1.0.21 (2021-07-23)
 - You can now use XPath statements for the context by prefixing the context with "xpath:". The XPath statements must return an element node. Attribute or text nodes are currently not supported. 
 - Topics no longer time out at 90 seconds. This prevents long topics from timing out, but means that scanning the entire project takes longer. 
 - Various bug fixes. 
