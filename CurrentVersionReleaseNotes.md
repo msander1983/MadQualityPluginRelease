@@ -1,5 +1,16 @@
 ﻿# Release Notes
 
+## 1.0.22 (2021-10-30)
+- Fixed a bug where REGEX expressions would sometimes not register properly. 
+- Changed the REGEX of MS-20210413120633 to avoid false positives. 
+- Fixed a bug where `MadCap:concept` was not properly converted to XPath.
+- Fixed a bug where a REGEX to detect a space at the start of an element did not work if the element started with a variable, or other element. 
+- Performance improvements. 
+- Change in MS-20210413120548 to ensure that "millimeters" and "centimeters" are matched. 
+- Fixed a bug where the RawRegex function would not work when e.g. a h1 element had a MadCap:variable as it's first child element.
+- The ":empty" selector now also includes non-breaking spaces. 
+- Added a new function: RegexInline, which will keep any inline HTML-elements in the matched element. For example `<h1>Lorem <span>ipsum</span></h1>` becomes `Lorem <span>ipsum</span>` rather than just `Lorem ipsum`.
+
 ## 1.0.21 (2021-07-23)
 - You can now use XPath statements for the context by prefixing the context with "xpath:". The XPath statements must return an element node. Attribute or text nodes are currently not supported. 
 - Topics no longer time out at 90 seconds. This prevents long topics from timing out, but means that scanning the entire project takes longer. 
