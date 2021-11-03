@@ -1,5 +1,10 @@
 ﻿# Release Notes
 
+## 1.0.23 (2021-11-03)
+- A correction to the REGEX of the MS-20210413120609 rule. 
+- Bug fix: `MadCap:concept` is now properly converted. 
+- Updated the license terms, making them less restrictive. 
+
 ## 1.0.22 (2021-10-30)
 - Fixed a bug where REGEX expressions would sometimes not register properly. 
 - Changed the REGEX of MS-20210413120633 to avoid false positives. 
