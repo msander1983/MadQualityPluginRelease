@@ -1,5 +1,8 @@
 ﻿# Release Notes
 
+## 1.0.24 (2021-11-10)
+- Fixed License key problem. 
+
 ## 1.0.23 (2021-11-03)
 - A correction to the REGEX of the MS-20210413120609 rule. 
 - Bug fix: `MadCap:concept` is now properly converted. 
