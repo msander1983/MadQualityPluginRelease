@@ -1,5 +1,17 @@
 ﻿# Release Notes
 
+## 1.0.25 (2021-12-06)
+- Fixed a problem where files in /Project/Users/.../Backups were included in the scan. 
+- Changed the timeout limit from 10 seconds to 15 seconds for individual rules.
+- Added support for REGEX matching with attributes, e.g. `[class %= \bMyWord\b]`.
+- New dialog when there are no broken rules. 
+- Enabled XML log mode for the MadQualityCommander using the `/xml` flag. 
+- Folders are now shown in the rule violation window.
+- Performance improvements. 
+- Filtering of the broken rules with free text.
+- You can now ignore files by creating an `.mqignore` file with the appropriate file name pattern. Works like .gitignore. 
+- Fixed a problem with the license validator. 
+
 ## 1.0.24 (2021-11-10)
 - Fixed License key problem. 
 
