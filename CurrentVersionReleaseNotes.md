@@ -1,5 +1,11 @@
 ﻿# Release Notes
 
+## 1.0.26 (2022-03-01)
+- Extended bug reporting via email.
+- Fixed a bug in the .ignore-functionality. 
+- If you write an xpath statement that returns an XNode that is not an XElement - that would not be supported. Now it is, in the sense that if the match is a non XElement XNode - the parent XElement is returned.
+- Added a rule to the default rule set to find images without ALT texts (https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)
+
 ## 1.0.25 (2021-12-06)
 - Fixed a problem where files in /Project/Users/.../Backups were included in the scan. 
 - Changed the timeout limit from 10 seconds to 15 seconds for individual rules.
