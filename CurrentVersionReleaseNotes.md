@@ -1,5 +1,8 @@
 ﻿# Release Notes
 
+## 1.0.27 (2022-03-08)
+- A bug fix to the filter functionality. 
+
 ## 1.0.26 (2022-03-01)
 - Extended bug reporting via email.
 - Fixed a bug in the .ignore-functionality. 
