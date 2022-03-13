@@ -1,5 +1,9 @@
 ﻿# Release Notes
 
+## 1.0.28 (2022-03-13)
+- Removed a dependency on Google prettyprint.
+- Made sure non-breaking spaces show up in the HTML preview.
+
 ## 1.0.27 (2022-03-08)
 - A bug fix to the filter functionality. 
 
