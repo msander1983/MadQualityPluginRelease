@@ -1,5 +1,13 @@
 ﻿# Release Notes
 
+## 1.0.28 (2022-03-17)
+- Removed a dependency on Google prettyprint.
+- Made sure non-breaking spaces show up in the HTML preview.
+- The CSV file now shows the actual word from the rule instead of just "%s" or "%t".
+- The MS-20210413120632 rule was updated to avoid a sentence being flagged as having no closing punctuation when it in fact did, only there was a space after the punctuation. 
+**NOTE:** Changes to rules only apply to newly created rule sets. 
+- Bug fix: If a TOC entry linked to a specific bookmark in a file - that file would not be scanned.
+
 ## 1.0.27 (2022-03-08)
 - A bug fix to the filter functionality. 
 
