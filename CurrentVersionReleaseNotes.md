@@ -1,5 +1,13 @@
 ﻿# Release Notes
 
+## 1.0.29 (2022-05-09)
+- New FEATURES:
+	- You can now run ad-hoc CSS searches to find elements matching a certain CSS expression. Just click the **Search (CSS)** button and enter your query.
+	- To quickly validate the XHTML of all topics - you can click the "Validate XML" button. 
+- BUG fixes: 
+	- Fixed cosmetic issue in the preview window. 
+	- Corrected bug in the RawRegex function that would prevent you from using the MadCap-namespace in your REGEX expressions. 
+
 ## 1.0.28 (2022-03-17)
 - Removed a dependency on Google prettyprint.
 - Made sure non-breaking spaces show up in the HTML preview.
