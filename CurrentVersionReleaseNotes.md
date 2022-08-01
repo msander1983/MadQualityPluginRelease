@@ -1,5 +1,11 @@
 ﻿# Release Notes
 
+## 1.0.30 (2022-08-01)
+- Bug  fixes:
+	- The context `p[MadCap:conditions='']` can now be converted to XPath. 
+	- The .mqignore function did not work for snippets linked from a topic.
+	- The FileNameRegex function now works for all types of Flare files (.htm, .html, .fl*)
+
 ## 1.0.29 (2022-05-09)
 - New FEATURES:
 	- You can now run ad-hoc CSS searches to find elements matching a certain CSS expression. Just click the **Search (CSS)** button and enter your query.
