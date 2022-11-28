@@ -1,5 +1,9 @@
 ﻿# Release Notes
 
+## 1.0.31 (2022-11-25)
+- Bug fixes:
+	- When you right-clicked a cell in the Violations window, sometimes the plugin would show an error message. This has been fixed.
+
 ## 1.0.30 (2022-08-01)
 - Bug  fixes:
 	- The context `p[MadCap:conditions='']` can now be converted to XPath. 
