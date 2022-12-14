@@ -1,5 +1,11 @@
 ﻿# Release Notes
 
+## 1.0.32 (2022-12-14)
+- The /Project/Users folder would be included when you scanned for a specific CSS query. This is now fixed.
+- You can now use the `:emptybreaking` pseudo selector to target empty elements, excluding element with non-breaking spaces. 
+- A bug with the licensing functionality was fixed. 
+- Changed timeout limit for individual rules from 15 seconds to 20 seconds. 
+
 ## 1.0.31 (2022-11-25)
 - Bug fixes:
 	- When you right-clicked a cell in the Violations window, sometimes the plugin would show an error message. This has been fixed.
