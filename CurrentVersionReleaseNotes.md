@@ -1,5 +1,10 @@
 ﻿# Release Notes
 
+## 1.0.33 (In development)
+- Line breaks would disturb the import of CSV file into Excel, so now the line breaks in the CSV file are replaced with a space.
+- You can now validate all open files. 
+- You can now maintain your rule files in a CSV format, making it easier to track changes using a source control system. 
+
 ## 1.0.32 (2022-12-14)
 - The /Project/Users folder would be included when you scanned for a specific CSS query. This is now fixed.
 - You can now use the `:emptybreaking` pseudo selector to target empty elements, excluding element with non-breaking spaces. 
