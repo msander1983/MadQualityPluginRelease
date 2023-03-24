@@ -1,6 +1,9 @@
 ﻿# Release Notes
 
-## 1.0.33 (In development)
+## 1.0.34
+- Fixed a bug in the license validation code. 
+
+## 1.0.33
 - Line breaks would disturb the import of CSV file into Excel, so now the line breaks in the CSV file are replaced with a space.
 - You can now validate all open files. 
 - You can now maintain your rule files in a CSV format, making it easier to track changes using a source control system. 
