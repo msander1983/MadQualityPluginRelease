@@ -1,5 +1,8 @@
 ﻿# Release Notes
 
+## 1.0.35
+- License validation bug fix. 
+
 ## 1.0.34
 - Fixed a bug in the license validation code. 
 
