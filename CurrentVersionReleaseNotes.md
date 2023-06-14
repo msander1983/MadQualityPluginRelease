@@ -1,5 +1,8 @@
 ﻿# Release Notes
 
+## 1.0.36
+- License agreement update. 
+
 ## 1.0.35
 - License validation bug fix. 
 
