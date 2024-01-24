@@ -1,5 +1,8 @@
 ﻿# Release Notes
 
+## 1.0.37
+- Bug fix related to using XPATH instead of CSS in the context.
+
 ## 1.0.36
 - License agreement update. 
 
