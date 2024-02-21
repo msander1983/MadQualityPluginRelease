@@ -1,5 +1,16 @@
 ﻿# Release Notes
 
+# 1.0.40
+- The "Anytext" context now covers any element with a text node as a direct child.
+- Rule violations are now cached for 30 days, so if your rule set hasn't changed and your topic hasn't changed since the last scan - the violations are processed very fast from the cache. 
+
+## 1.0.39
+- Corrected a problem in the Regex function, where inline elements were not always unbound. 
+
+## 1.0.38
+- Resolved an issue pertaining to CSS/XPATH conversion.
+- Addressed a defect causing duplicate entries in the violations list.
+
 ## 1.0.37
 - Bug fix related to using XPATH instead of CSS in the context.
 
