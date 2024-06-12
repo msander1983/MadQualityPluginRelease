@@ -2,6 +2,10 @@
 
 | Version | Date       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |---------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0.47 | 2024-06-12 | There's now a special rule for checking heading level consistency. Set the context to `check-heading-levels`. |
+| 1.0.46 | 2024-05-27 | You can now edit ignored rules in a separate window. |
+| 1.0.45 | 2024-04-24 | - Bug fix: There's now a check whether you have a Flare project open before processing. |
+| 1.0.44  |2024-03-27  | You can now ignore specific rule violations by right-clicking a violation in the Violations window. |
 | 1.0.43  |  2024-03-07          | FIXED: There was a problem related to the caching functionality, where in some cases, the cached response would be triggered even if the rule has changed.  |
 | 1.0.42  |  2024-03-06          | Performance related bug fixes. |
 | 1.0.41  |  2024-02-22          | There's now a button to clear the cache, and the cachefolder moved. |
