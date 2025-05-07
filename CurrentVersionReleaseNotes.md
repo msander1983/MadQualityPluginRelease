@@ -2,6 +2,10 @@
 
 | Version | Date       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |---------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0.54 | 2025-05-07 | Installer updated for Flare 2025. 
+| 1.0.53 | 2025-04-18 | Bug fixes
+| 1.0.52 | 2025-04-18 | Bug fixes
+| 1.0.51 | 2025-04-18 | Bug fixes
 | 1.0.50 | 2025-04-18 | Fixed a bug where the trial license would be cut short.  |
 | 1.0.49 | 2025-01-28 | Bug fix related to scanning TOC files.  |
 | 1.0.48 | 2024-11-11 | New RegexElementOnly Function. Added a new RegexElementOnly function that enables pattern matching on an element's direct text content while ignoring text in child elements. This helps when you need to validate patterns in parent elements without considering nested content.|
