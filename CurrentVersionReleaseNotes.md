@@ -2,6 +2,7 @@
 
 | Version | Date       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |---------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0.59 | 2025-08-13 | CSS selector bug fixes.    |
 | 1.0.58 | 2025-08-06 | Default Rules no longer automatically appear after deletion & restart.   |
 | 1.0.57 | 2025-05-20 | Implemented a fix that should resolve the `NullReferenceException` problem. The problem was related to how the application was handling the currently active file, especially when no topic was in focus.  |
 | 1.0.56 | 2025-05-20 | Bug fix related to the IgnoreContext.  |
