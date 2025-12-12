@@ -2,6 +2,7 @@
 
 | Version | Date       | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |---------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0.62 | 2025-12-12 | Fixed mailto link format for compatibility with New Outlook for Windows.    |
 | 1.0.61 | 2025-10-22 | Fixed bug in the MadQualityCommander.exe that prevented it from running.    |
 | 1.0.60 | 2025-09-30 | Fixed .mqignore pattern matching bug where folder paths were incorrectly built. Added missing project boundary check to prevent recursion outside project root.    |
 | 1.0.59 | 2025-08-13 | CSS selector bug fixes.    |
